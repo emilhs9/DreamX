@@ -1,0 +1,1 @@
+client_loop: ssh_packet_write_poll: Connection to 5.255.123.12 port 22: Unknown error

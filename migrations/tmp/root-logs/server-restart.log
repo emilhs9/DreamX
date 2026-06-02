@@ -1,0 +1,7 @@
+LaunchPad running on http://localhost:3000
+[mail:dry-run] {
+  "from": "LaunchPad <no-reply@launchpad.local>",
+  "to": "provider-test-1558030027@example.com",
+  "subject": "Verify your LaunchPad account",
+  "text": "Open this link to verify your account: http://localhost:3000/api/v1/auth/verify-email/7g8UyVDZKNu2WoiJWJWE9HOVsnv4KXs-jVHfCiUQbUs"
+}
