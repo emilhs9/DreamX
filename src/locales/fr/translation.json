@@ -1,0 +1,357 @@
+{
+  "brand": {
+    "name": "DreamX",
+    "tagline": "D?ployez des projets GitHub et GitLab avec un lien propre."
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "workflow": "Fonctionnement",
+    "pricing": "Tarifs",
+    "faq": "FAQ",
+    "dashboard": "Tableau de bord",
+    "projects": "Projets",
+    "deploy": "Deploy",
+    "profile": "Profil",
+    "logout": "Déconnexion",
+    "login": "Connexion",
+    "register": "Commencer",
+    "docs": "Docs",
+    "language": "Langue",
+    "theme": "Thème"
+  },
+  "auth": {
+    "loginTitle": "Bon retour",
+    "registerTitle": "Créer un compte",
+    "loginCopy": "Connectez-vous pour accéder aux déploiements, aux journaux et au profil.",
+    "registerCopy": "Inscrivez-vous pour déployer des projets et gérer les URL publiques.",
+    "name": "Nom",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "remember": "Se souvenir de moi",
+    "forgot": "Mot de passe oublié ?",
+    "already": "Vous avez déjà un compte ?",
+    "new": "Nouveau sur DreamX ?",
+    "create": "Créer un compte",
+    "secureAccess": "Accès sécurisé",
+    "invalid": "Identifiants invalides",
+    "locked": "Réessayez dans {{time}}",
+    "passwordHint": "Au moins 8 caractères avec majuscule, minuscule et chiffre."
+  },
+  "landing": {
+    "eyebrow": "Git vers URL publique",
+    "title": "Deploy. Share. Done.",
+    "copy": "Connect a repo and get a public DreamX link in minutes.",
+    "trusted": "Adopté par {{count}}+ développeurs",
+    "statsDeploys": "Déploiements",
+    "statsActive": "Projets actifs",
+    "countries": "Pays",
+    "uptime": "Uptime",
+    "comparison": "DreamX face aux autres",
+    "ready": "Ready?",
+    "readyCopy": "Create an account and publish your first site.",
+    "featuresTitle": "Simple deploy essentials.",
+    "workflowTitle": "Three steps to a live site.",
+    "liveStats": "Live stats",
+    "statsTitle": "Counters that move when the platform grows.",
+    "defaultSlots": "Default project slots",
+    "comparisonTitle": "Focused deployment, without cloud-console sprawl.",
+    "pricingTitle": "Pick a deploy plan.",
+    "popular": "Popular",
+    "testimonials": "Testimonials",
+    "testimonialsTitle": "A practical platform for practical teams.",
+    "faqTitle": "Short answers.",
+    "scroll": "Scroll to features",
+    "pipeline": {
+      "title": "Deploy flow",
+      "live": "Live",
+      "done": "done",
+      "connect": "Connect repo",
+      "analyze": "Analyze app",
+      "build": "Publish link",
+      "publish": "Public URL"
+    },
+    "features": {
+      "login": {
+        "title": "Secure deploys",
+        "copy": "Deploy only after login."
+      },
+      "github": {
+        "title": "Sources Git",
+        "copy": "Connectez GitHub ou GitLab et choisissez une branche."
+      },
+      "logs": {
+        "title": "Live logs",
+        "copy": "Follow build output in real time."
+      },
+      "urls": {
+        "title": "Public URLs",
+        "copy": "Each project receives a unique URL, with wildcard subdomain support on Linux."
+      },
+      "admin": {
+        "title": "Private control panel",
+        "copy": "Separate privileged sessions, user management, audit trail, settings, logs, and announcements."
+      },
+      "server": {
+        "title": "Server ready",
+        "copy": "PostgreSQL schema, Redis queue support, PM2, Nginx, Caddy, HTTPS, and setup scripts."
+      }
+    },
+    "workflowSteps": {
+      "connect": {
+        "title": "Connect",
+        "copy": "Choisissez un d?p?t GitHub ou GitLab."
+      },
+      "analyze": {
+        "title": "Analyze",
+        "copy": "DreamX detects the framework and build settings."
+      },
+      "publish": {
+        "title": "Publish",
+        "copy": "Your site gets a dream.x public link."
+      }
+    },
+    "pricing": {
+      "free": {
+        "name": "Free",
+        "price": "$0",
+        "copy": "For tests and small demos.",
+        "items": [
+          "3 active projects",
+          "GitHub deploys",
+          "Live logs"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "$19",
+        "copy": "For active teams and custom domains.",
+        "items": [
+          "Higher limits",
+          "Custom domains",
+          "Priority builds"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Custom",
+        "copy": "For self-hosted control.",
+        "items": [
+          "White-label settings",
+          "Admin controls",
+          "SMTP announcements"
+        ]
+      }
+    },
+    "testimonialItems": {
+      "ayla": {
+        "name": "Ayla, product designer",
+        "quote": "DreamX turns client previews into a clean, repeatable workflow."
+      },
+      "tural": {
+        "name": "Tural, frontend engineer",
+        "quote": "The deploy flow feels simple, but the admin controls are serious."
+      },
+      "studio": {
+        "name": "Nara Studio",
+        "quote": "We can host small web projects without touching server config each time."
+      }
+    },
+    "comparisonRows": {
+      "github": {
+        "capability": "GitHub to public URL",
+        "dreamx": "Included",
+        "other": "Often requires extra integration setup"
+      },
+      "login": {
+        "capability": "Login-gated deploys",
+        "dreamx": "Built in",
+        "other": "Plan-dependent"
+      },
+      "selfHosted": {
+        "capability": "Self-hosted control",
+        "dreamx": "Your Linux server",
+        "other": "Vendor infrastructure"
+      },
+      "limits": {
+        "capability": "Admin limits",
+        "dreamx": "Configurable",
+        "other": "Fixed tiers"
+      }
+    },
+    "faqItems": {
+      "login": {
+        "q": "Can users deploy without logging in?",
+        "a": "No. Repository validation and deploy endpoints require a valid user JWT and protected frontend route."
+      },
+      "subdomains": {
+        "q": "How do project subdomains work?",
+        "a": "Point wildcard DNS to the Linux server and use the provided Nginx or Caddy config."
+      },
+      "postgres": {
+        "q": "Does DreamX support PostgreSQL?",
+        "a": "Yes. Production uses the included PostgreSQL migration. Local development can use the file fallback."
+      },
+      "https": {
+        "q": "Is HTTPS included?",
+        "a": "The app includes Caddy and Nginx plus Certbot deployment guides for wildcard or domain HTTPS."
+      },
+      "frameworks": {
+        "q": "Can I deploy React or Vue?",
+        "a": "Yes. DreamX detects package files, runs the build command, and publishes the output directory."
+      },
+      "privateRepos": {
+        "q": "Can I deploy private repositories?",
+        "a": "Oui. Connectez GitHub ou GitLab avec OAuth; DreamX stocke les jetons chiffr?s c?t? serveur."
+      },
+      "limits": {
+        "q": "Can admins change deploy limits?",
+        "a": "Yes. Project limits, build timeout, maintenance mode, branding, and SMTP can be changed from settings."
+      },
+      "logs": {
+        "q": "Are logs saved?",
+        "a": "Deployment and admin logs are persisted and can also stream live over WebSocket."
+      },
+      "domains": {
+        "q": "Does it support custom domains?",
+        "a": "The deployment model supports clean slugs and wildcard subdomains, with reverse proxy examples included."
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Votre espace de déploiement.",
+    "welcome": "Bienvenue, {{name}}",
+    "copy": "Trois emplacements actifs sont affichés par défaut. Supprimez ou arrêtez un projet pour libérer une place.",
+    "deployNew": "Nouveau déploiement",
+    "viewProjects": "Voir les projets",
+    "viewDocs": "Voir la doc",
+    "activeProjects": "Projets actifs",
+    "availableSlots": "Emplacements libres",
+    "totalProjects": "Total projets",
+    "failedDeploys": "Échecs",
+    "recentActivity": "Activité récente",
+    "quickDeploy": "Déploiement rapide",
+    "tips": "Checklist d'accueil",
+    "dismiss": "Masquer",
+    "bandwidth": "Bande passante utilisée",
+    "monthDeploys": "Déploiements ce mois",
+    "developer": "developer",
+    "workspaceCopy": "Deploy slots, activity, usage, and onboarding live in one calm workspace."
+  },
+  "deploy": {
+    "title": "Connectez une source, analysez, publiez.",
+    "copy": "Le d?ploiement n?cessite une session. Les d?p?ts GitHub et GitLab sont valid?s avant clone, build et publication.",
+    "drop": "Collez une URL GitHub ou GitLab pour commencer",
+    "max": "Les d?p?ts publics et priv?s sont disponibles apr?s autorisation.",
+    "projectName": "Project name",
+    "customDomain": "Custom domain label",
+    "optional": "optional",
+    "spa": "Enable SPA fallback to index.html",
+    "analyze": "Analyze repository",
+    "deployNow": "Deploy Now",
+    "analysis": "Analysis",
+    "progress": "Progress",
+    "live": "Project is live",
+    "copyUrl": "Copy URL",
+    "liveDomainHint": "Public links use https://sitename.dream.x",
+    "githubDeployTitle": "Git provider deploy",
+    "githubDeployCopy": "Connect GitHub or GitLab, choose one of your repositories, then analyze and publish it.",
+    "githubToken": "GitHub authorization",
+    "githubTokenPlaceholder": "Handled securely by OAuth",
+    "connectGithub": "Connect GitHub",
+    "refreshRepos": "Refresh repositories",
+    "connectedAs": "Connected as {{user}}",
+    "chooseRepository": "Choose repository",
+    "chooseRepositoryCopy": "Select the repo you want to deploy.",
+    "repositorySearch": "Search repositories",
+    "repositorySearchPlaceholder": "Search by repo name or description",
+    "noDescription": "No description",
+    "publicRepo": "Public",
+    "privateRepo": "Private",
+    "noRepositories": "Aucun d?p?t trouv? pour cette connexion.",
+    "githubTokenRequired": "Connectez d?abord une source pour lister les d?p?ts.",
+    "githubConnected": "{{provider}} connect?. {{count}} d?p?ts charg?s.",
+    "manualRepoUrl": "Selected repository URL",
+    "disconnectGithub": "Disconnect",
+    "githubOAuthMissing": "{{provider}} OAuth is not configured on this server. Add OAuth client values to .env.",
+    "githubOAuthFailed": "Source connection failed. Please try again.",
+    "connectProvider": "Connect {{provider}}",
+    "providers": {
+      "github": "GitHub repositories, teams, and private projects.",
+      "gitlab": "GitLab projects, groups, and private repositories."
+    }
+  },
+  "projects": {
+    "title": "All public deployments.",
+    "copy": "Search, inspect status, open live URLs, or jump into logs.",
+    "search": "Search projects",
+    "empty": "No projects found",
+    "emptyCopy": "Connectez votre premier d?p?t pour voir les projets ici.",
+    "details": "Details",
+    "open": "Open"
+  },
+  "profile": {
+    "title": "Paramètres du compte.",
+    "copy": "Mettez à jour identité, avatar, mot de passe ou supprimez le compte avec confirmation.",
+    "avatar": "Téléverser un avatar",
+    "save": "Enregistrer le profil",
+    "security": "Sécurité",
+    "changePassword": "Changer le mot de passe",
+    "delete": "Supprimer le compte"
+  },
+  "admin": {
+    "dashboard": "Tableau de bord",
+    "users": "Utilisateurs",
+    "projects": "Projets",
+    "settings": "Paramètres",
+    "logs": "Logs",
+    "notifications": "Notifications",
+    "overview": "Salle de contrôle de la plateforme.",
+    "userManagement": "Gestion des utilisateurs.",
+    "projectManagement": "Gestion des déploiements.",
+    "platformSettings": "Paramètres plateforme.",
+    "systemLogs": "Surveillance système.",
+    "announcements": "Annonces et e-mails groupés."
+  },
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "stop": "Arrêter",
+    "restart": "Redémarrer",
+    "redeploy": "Redéployer",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "copy": "Copier",
+    "close": "Fermer",
+    "loading": "Chargement",
+    "success": "Succès",
+    "error": "Erreur",
+    "empty": "Rien pour le moment"
+  },
+  "errors": {
+    "required": "This field is required",
+    "passwordMatch": "Passwords do not match.",
+    "requestFailed": "La requête a échoué. Réessaie.",
+    "notFound": "This route is not available in DreamX.",
+    "maintenance": "DreamX is being upgraded. Please check back soon.",
+    "repoRequired": "Saisissez d?abord une URL de d?p?t GitHub ou GitLab.",
+    "emailInvalid": "Saisis une adresse e-mail valide.",
+    "nameMin": "Le nom doit contenir au moins 2 caractères.",
+    "passwordStrong": "Le mot de passe doit contenir une majuscule, une minuscule et un chiffre."
+  },
+  "footer": {
+    "platform": "Plateforme",
+    "company": "Entreprise",
+    "policy": "Règles",
+    "security": "Sécurité",
+    "privacy": "Confidentialité",
+    "support": "Support",
+    "rights": "Tous droits réservés.",
+    "resources": "Ressources",
+    "terms": "Conditions",
+    "cookies": "Paramètres cookies",
+    "status": "Statut",
+    "api": "API"
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "brand": {
+    "name": "DreamX",
+    "tagline": "GitHub və GitLab layihələrini təmiz bir linkə deploy et."
+  },
+  "nav": {
+    "features": "Özəlliklər",
+    "workflow": "Necə işləyir",
+    "pricing": "Qiymətlər",
+    "faq": "Suallar",
+    "dashboard": "Panel",
+    "projects": "Layihələr",
+    "deploy": "Deploy",
+    "profile": "Profil",
+    "logout": "Çıxış",
+    "login": "Giriş",
+    "register": "Başla",
+    "docs": "Bələdçi",
+    "language": "Dil",
+    "theme": "Tema"
+  },
+  "auth": {
+    "loginTitle": "Xoş gəldin",
+    "registerTitle": "Hesab yarat",
+    "loginCopy": "Deploy-lərə, loglara və profil ayarlarına daxil ol.",
+    "registerCopy": "Layihələri deploy etmək və public linkləri idarə etmək üçün qeydiyyatdan keç.",
+    "name": "Ad",
+    "email": "E-poçt",
+    "password": "Şifrə",
+    "confirmPassword": "Şifrəni təsdiqlə",
+    "remember": "Məni xatırla",
+    "forgot": "Şifrəni unutdun?",
+    "already": "Hesabın var?",
+    "new": "DreamX-də yenisən?",
+    "create": "Hesab yarat",
+    "secureAccess": "Təhlükəsiz giriş",
+    "invalid": "Məlumatlar yanlışdır",
+    "locked": "{{time}} sonra yenidən cəhd et",
+    "passwordHint": "Ən az 8 simvol, böyük hərf, kiçik hərf və rəqəm istifadə et."
+  },
+  "landing": {
+    "eyebrow": "Git-dən public URL-ə",
+    "title": "Deploy et. Paylaş. Hazır.",
+    "copy": "Repo qoş və bir neçə dəqiqəyə public DreamX link al.",
+    "trusted": "{{count}}+ developer tərəfindən istifadə olunur",
+    "statsDeploys": "Ümumi deploy",
+    "statsActive": "Aktiv layihələr",
+    "countries": "Ölkələr",
+    "uptime": "Uptime",
+    "comparison": "DreamX və digərləri",
+    "ready": "Hazırsan?",
+    "readyCopy": "Hesab yarat və ilk saytını yayımla.",
+    "featuresTitle": "Sadə deploy üçün əsas alətlər.",
+    "workflowTitle": "Canlı sayt üçün üç addım.",
+    "liveStats": "Canlı statistika",
+    "statsTitle": "Platforma böyüdükcə yenilənən göstəricilər.",
+    "defaultSlots": "Standart layihə slotları",
+    "comparisonTitle": "Bulud konsolu qarışıqlığı olmadan fokuslu deploy.",
+    "pricingTitle": "Deploy planını seç.",
+    "popular": "Populyar",
+    "testimonials": "Rəylər",
+    "testimonialsTitle": "Praktik komandalar üçün praktik platforma.",
+    "faqTitle": "Qısa cavablar.",
+    "scroll": "Özəlliklərə keç",
+    "pipeline": {
+      "title": "Deploy axını",
+      "live": "Canlı",
+      "done": "hazır",
+      "connect": "Repo qoş",
+      "analyze": "Analiz et",
+      "build": "Build et",
+      "publish": "Public URL"
+    },
+    "features": {
+      "login": {
+        "title": "Təhlükəsiz deploy",
+        "copy": "Deploy yalnız login sonrası mümkündür."
+      },
+      "github": {
+        "title": "Git mənbələri",
+        "copy": "GitHub və ya GitLab-a qoşul, branch seç və build ayarlarını yoxla."
+      },
+      "logs": {
+        "title": "Canlı loglar",
+        "copy": "Build prosesini real vaxtda izlə."
+      },
+      "urls": {
+        "title": "Public URL-lər",
+        "copy": "Hər layihəyə unikal link verilir, Linux serverdə wildcard subdomain dəstəyi var."
+      },
+      "admin": {
+        "title": "Gizli idarə paneli",
+        "copy": "Ayrı admin sessiyası, istifadəçi idarəsi, audit, ayarlar, loglar və elanlar."
+      },
+      "server": {
+        "title": "Serverə hazır",
+        "copy": "PostgreSQL sxemi, Redis queue, PM2, Nginx, Caddy, HTTPS və setup skriptləri hazırdır."
+      }
+    },
+    "workflowSteps": {
+      "connect": {
+        "title": "Qoş",
+        "copy": "GitHub və ya GitLab reposu seç."
+      },
+      "analyze": {
+        "title": "Analiz et",
+        "copy": "DreamX framework və build ayarlarını tapır."
+      },
+      "publish": {
+        "title": "Yayımla",
+        "copy": "Saytına dream.x public link verilir."
+      }
+    },
+    "pricing": {
+      "free": {
+        "name": "Pulsuz",
+        "price": "$0",
+        "copy": "Test və kiçik demo üçün.",
+        "items": [
+          "3 aktiv layihə",
+          "GitHub deploy",
+          "Canlı loglar"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "$19",
+        "copy": "Aktiv komandalar və custom domain üçün.",
+        "items": [
+          "Daha yüksək limitlər",
+          "Custom domainlər",
+          "Prioritet build-lər"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Xüsusi",
+        "copy": "Self-hosted nəzarət üçün.",
+        "items": [
+          "White-label ayarları",
+          "Admin nəzarəti",
+          "SMTP elanları"
+        ]
+      }
+    },
+    "testimonialItems": {
+      "ayla": {
+        "name": "Ayla, product designer",
+        "quote": "DreamX müştəri preview-larını təmiz və təkrarlanan prosesə çevirir."
+      },
+      "tural": {
+        "name": "Tural, frontend engineer",
+        "quote": "Deploy axını sadə görünür, amma admin nəzarəti çox ciddidir."
+      },
+      "studio": {
+        "name": "Nara Studio",
+        "quote": "Kiçik web layihələrini hər dəfə server ayarı etmədən yayımlayırıq."
+      }
+    },
+    "comparisonRows": {
+      "github": {
+        "capability": "GitHub-dan public URL-ə",
+        "dreamx": "Daxildir",
+        "other": "Çox vaxt əlavə inteqrasiya tələb edir"
+      },
+      "login": {
+        "capability": "Loginlə qorunan deploy",
+        "dreamx": "Hazırdır",
+        "other": "Paketdən asılıdır"
+      },
+      "selfHosted": {
+        "capability": "Self-hosted nəzarət",
+        "dreamx": "Sənin Linux serverin",
+        "other": "Vendor infrastrukturu"
+      },
+      "limits": {
+        "capability": "Admin limitləri",
+        "dreamx": "Dəyişdirilə bilir",
+        "other": "Sabit paketlər"
+      }
+    },
+    "faqItems": {
+      "login": {
+        "q": "İstifadəçilər login olmadan deploy edə bilər?",
+        "a": "Xeyr. Repo yoxlama və deploy endpointləri etibarlı user JWT və qorunan frontend route tələb edir."
+      },
+      "subdomains": {
+        "q": "Layihə subdomainləri necə işləyir?",
+        "a": "Wildcard DNS-i Linux serverə yönləndir və verilən Nginx və ya Caddy konfiqurasiyasından istifadə et."
+      },
+      "postgres": {
+        "q": "DreamX PostgreSQL dəstəkləyir?",
+        "a": "Bəli. Production daxil edilmiş PostgreSQL migration ilə işləyir, local dev isə file fallback istifadə edə bilir."
+      },
+      "https": {
+        "q": "HTTPS daxildirmi?",
+        "a": "Tətbiq wildcard və domain HTTPS üçün Caddy, Nginx və Certbot bələdçiləri ilə gəlir."
+      },
+      "frameworks": {
+        "q": "React və ya Vue deploy edə bilərəm?",
+        "a": "Bəli. DreamX package fayllarını tapır, build əmrini işlədir və output qovluğunu yayımlayır."
+      },
+      "privateRepos": {
+        "q": "Private repo deploy etmək olar?",
+        "a": "Bəli. GitHub və ya GitLab-a OAuth ilə qoşulursan; DreamX access token-i serverdə şifrəli saxlayır."
+      },
+      "limits": {
+        "q": "Admin deploy limitlərini dəyişə bilər?",
+        "a": "Bəli. Layihə limiti, build timeout, maintenance mode, brendinq və SMTP ayarları settings-dən dəyişir."
+      },
+      "logs": {
+        "q": "Loglar saxlanır?",
+        "a": "Deploy və admin logları saxlanır və WebSocket ilə real vaxtda da göstərilə bilir."
+      },
+      "domains": {
+        "q": "Custom domain dəstəyi var?",
+        "a": "Deploy modeli təmiz slug və wildcard subdomainləri dəstəkləyir, reverse proxy nümunələri daxildir."
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Deploy iş məkanın.",
+    "welcome": "Xoş gəldin, {{name}}",
+    "copy": "Default olaraq 3 aktiv slot göstərilir. Yer açmaq üçün layihəni sil və ya dayandır.",
+    "deployNew": "Yeni deploy",
+    "viewProjects": "Layihələrə bax",
+    "viewDocs": "Bələdçi",
+    "activeProjects": "Aktiv layihələr",
+    "availableSlots": "Boş slotlar",
+    "totalProjects": "Ümumi layihələr",
+    "failedDeploys": "Uğursuz deploylar",
+    "recentActivity": "Son aktivlik",
+    "quickDeploy": "Sürətli deploy",
+    "tips": "Başlanğıc siyahısı",
+    "dismiss": "Gizlət",
+    "bandwidth": "İstifadə olunan trafik",
+    "monthDeploys": "Bu ay deploylar",
+    "developer": "developer",
+    "workspaceCopy": "Deploy slotları, aktivlik, istifadə və onboarding bir sakit workspace-də görünür."
+  },
+  "deploy": {
+    "title": "Mənbəni qoş, analiz et, yayımla.",
+    "copy": "Deploy yalnız login sonrası mümkündür. GitHub və GitLab repoları clone, build və publish öncəsi yoxlanılır.",
+    "drop": "Başlamaq üçün GitHub və ya GitLab repo URL-i yaz",
+    "max": "Public və private repolar source icazəsindən sonra görünür.",
+    "projectName": "Layihə adı",
+    "customDomain": "Custom domain adı",
+    "optional": "istəyə bağlı",
+    "spa": "SPA fallback aktiv olsun",
+    "analyze": "Repository analiz et",
+    "deployNow": "Deploy et",
+    "analysis": "Analiz",
+    "progress": "Proqres",
+    "live": "Layihə live oldu",
+    "copyUrl": "URL-i kopyala",
+    "liveDomainHint": "Public linklər https://sitename.dream.x formatındadır",
+    "githubDeployTitle": "Git provider deploy",
+    "githubDeployCopy": "GitHub və ya GitLab hesabını qoş, repolarından birini seç, sonra analiz edib yayımla.",
+    "githubToken": "GitHub icazəsi",
+    "githubTokenPlaceholder": "OAuth ilə təhlükəsiz idarə olunur",
+    "connectGithub": "GitHub-a qoşul",
+    "refreshRepos": "Repoları yenilə",
+    "connectedAs": "{{user}} kimi qoşuldu",
+    "chooseRepository": "Repo seç",
+    "chooseRepositoryCopy": "Deploy etmək istədiyin repository-ni seç.",
+    "repositorySearch": "Repoları axtar",
+    "repositorySearchPlaceholder": "Repo adı və ya məlumatı ilə axtar",
+    "noDescription": "Məlumat yoxdur",
+    "publicRepo": "Public",
+    "privateRepo": "Private",
+    "noRepositories": "Bu bağlantı üçün repo tapılmadı.",
+    "githubTokenRequired": "Repo siyahısı üçün əvvəlcə mənbə providerini qoş.",
+    "githubConnected": "{{provider}} qoşuldu. {{count}} repo yükləndi.",
+    "manualRepoUrl": "Seçilmiş repository URL-i",
+    "disconnectGithub": "Ayır",
+    "githubOAuthMissing": "Bu serverdə seçilmiş provider üçün OAuth ayarlanmayıb. .env faylına OAuth client dəyərlərini əlavə et.",
+    "githubOAuthFailed": "Source qoşulması uğursuz oldu. Yenidən cəhd et.",
+    "connectProvider": "{{provider}}-a qoşul",
+    "providers": {
+      "github": "GitHub repoları, komandaları və private layihələri.",
+      "gitlab": "GitLab layihələri, qrupları və private repoları."
+    }
+  },
+  "projects": {
+    "title": "Bütün public deploylar.",
+    "copy": "Axtar, statusu yoxla, live URL aç və loglara bax.",
+    "search": "Layihə axtar",
+    "empty": "Layihə tapılmadı",
+    "emptyCopy": "İlk reponu qoş, layihələr burada görünsün.",
+    "details": "Detallar",
+    "open": "Aç"
+  },
+  "profile": {
+    "title": "Hesab ayarları.",
+    "copy": "Ad, avatar, şifrə və hesab silmə ayarları.",
+    "avatar": "Avatar yüklə",
+    "save": "Profili saxla",
+    "security": "Təhlükəsizlik",
+    "changePassword": "Şifrəni dəyiş",
+    "delete": "Hesabı sil"
+  },
+  "admin": {
+    "dashboard": "Panel",
+    "users": "İstifadəçilər",
+    "projects": "Layihələr",
+    "settings": "Ayarlar",
+    "logs": "Loglar",
+    "notifications": "Bildirişlər",
+    "overview": "Platform idarə otağı.",
+    "userManagement": "İstifadəçi idarəsi.",
+    "projectManagement": "Deploy idarəsi.",
+    "platformSettings": "Platform ayarları.",
+    "systemLogs": "Sistem monitorinqi.",
+    "announcements": "Elanlar və email göndərişləri."
+  },
+  "common": {
+    "save": "Saxla",
+    "cancel": "Ləğv et",
+    "delete": "Sil",
+    "stop": "Dayandır",
+    "restart": "Yenidən başlat",
+    "redeploy": "Təkrar deploy",
+    "search": "Axtar",
+    "filter": "Filtr",
+    "copy": "Kopyala",
+    "close": "Bağla",
+    "loading": "Yüklənir",
+    "success": "Uğurlu",
+    "error": "Xəta",
+    "empty": "Hələ məlumat yoxdur"
+  },
+  "errors": {
+    "required": "Bu xana məcburidir",
+    "passwordMatch": "Şifrələr uyğun gəlmir.",
+    "requestFailed": "Sorğu uğursuz oldu. Yenidən cəhd et.",
+    "notFound": "Bu səhifə DreamX-də mövcud deyil.",
+    "maintenance": "DreamX yenilənir. Bir az sonra yoxla.",
+    "repoRequired": "Əvvəlcə GitHub və ya GitLab repository URL-i yaz.",
+    "emailInvalid": "Düzgün e-poçt ünvanı yaz.",
+    "nameMin": "Ad ən az 2 simvol olmalıdır.",
+    "passwordStrong": "Şifrə böyük hərf, kiçik hərf və rəqəm içərməlidir."
+  },
+  "footer": {
+    "platform": "Platforma",
+    "company": "Şirkət",
+    "policy": "Qaydalar",
+    "security": "Təhlükəsizlik",
+    "privacy": "Məxfilik",
+    "support": "Dəstək",
+    "rights": "Bütün hüquqlar qorunur.",
+    "resources": "Resurslar",
+    "terms": "Şərtlər",
+    "cookies": "Cookie ayarları",
+    "status": "Status",
+    "api": "API"
+  }
+}

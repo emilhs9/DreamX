@@ -1,43 +1,32 @@
 {
-  "name": "dreamx-back-end",
+  "name": "dreamx-front-end",
   "version": "1.0.0",
   "private": true,
-  "main": "server.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon server.js",
-    "start": "node server.js",
-    "migrate": "cross-env NODE_ENV=development node server/migrate.js",
-    "migrate:prod": "cross-env NODE_ENV=production node server/migrate.js",
-    "seed": "cross-env NODE_ENV=development node server/seed.js",
-    "seed:prod": "cross-env NODE_ENV=production node server/seed.js"
-  },
-  "engines": {
-    "node": ">=20"
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@socket.io/admin-ui": "^0.5.1",
-    "bcryptjs": "^3.0.3",
-    "bullmq": "^5.64.1",
-    "compression": "^1.8.1",
-    "cookie-parser": "^1.4.7",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "express-rate-limit": "^7.4.1",
-    "helmet": "^8.2.0",
-    "ioredis": "^5.8.2",
-    "jsonwebtoken": "^9.0.2",
-    "multer": "^2.1.1",
-    "nanoid": "^5.1.6",
-    "nodemailer": "^8.0.8",
-    "pg": "^8.16.3",
-    "sharp": "^0.34.5",
-    "socket.io": "^4.8.1",
-    "systeminformation": "^5.27.11",
-    "zod": "^3.25.76"
+    "framer-motion": "^12.23.24",
+    "i18next": "^26.2.0",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^17.0.8",
+    "react-router-dom": "^6.30.2",
+    "recharts": "^3.8.1",
+    "socket.io-client": "^4.8.3"
   },
   "devDependencies": {
-    "cross-env": "^10.1.0",
-    "nodemon": "^3.1.14"
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^6.0.2",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "terser": "^5.48.0",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.14"
   }
 }

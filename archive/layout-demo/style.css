@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+}
+
+main {
+  width: 100%;
+}
+
+.bar-section {
+  min-height: 460px;
+  padding: 27px 16px;
+  display: grid;
+  place-items: center;
+  background: #9829df;
+}
+
+.bars-card {
+  width: min(522px, 100%);
+  min-height: 400px;
+  padding: 27px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e65255;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 0 4px rgba(92, 0, 0, 0.35);
+}
+
+.bar-list {
+  width: min(424px, 100%);
+}
+
+.bar {
+  height: 19px;
+  margin-bottom: 14px;
+  padding-left: 7px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.bar:last-child {
+  margin-bottom: 0;
+}
+
+.red {
+  background: #f60000;
+}
+
+.blue {
+  background: #0000f4;
+}
+
+.size-650 {
+  width: 100%;
+}
+
+.size-600 {
+  width: 92.31%;
+}
+
+.size-450 {
+  width: 69.23%;
+}
+
+.size-300 {
+  width: 46.15%;
+}
+
+.repeat-section {
+  min-height: 314px;
+  padding: 0 16px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+}
+
+.repeat-section h1 {
+  margin: 2px 0 12px;
+  color: #e00606;
+  font-size: 46px;
+  line-height: 1.15;
+  font-weight: 400;
+}
+
+.repeat-board {
+  width: min(390px, calc(100vw - 34px));
+  aspect-ratio: 390 / 236;
+  border: 2px solid #111111;
+  background-image: url("img/cat-tile.png");
+  background-repeat: repeat;
+  background-size: 96px 96px;
+  background-position: left top;
+}
+
+@media (max-width: 560px) {
+  .bar-section {
+    min-height: 420px;
+    padding: 22px 14px;
+  }
+
+  .bars-card {
+    min-height: 360px;
+    padding: 24px;
+  }
+
+  .bar {
+    margin-bottom: 12px;
+  }
+
+  .repeat-section h1 {
+    font-size: 42px;
+  }
+}

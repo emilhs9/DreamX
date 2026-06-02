@@ -1,0 +1,356 @@
+{
+  "brand": {
+    "name": "DreamX",
+    "tagline": "GitHub ve GitLab projelerini tek temiz linke deploy et."
+  },
+  "nav": {
+    "features": "Özellikler",
+    "workflow": "Nasıl çalışır",
+    "pricing": "Fiyatlandırma",
+    "faq": "SSS",
+    "dashboard": "Panel",
+    "projects": "Projeler",
+    "deploy": "Deploy",
+    "profile": "Profil",
+    "logout": "Çıkış",
+    "login": "Giriş",
+    "register": "Başla",
+    "docs": "Dokümanlar",
+    "language": "Dil",
+    "theme": "Tema"
+  },
+  "auth": {
+    "loginTitle": "Tekrar hoş geldin",
+    "registerTitle": "Hesap oluştur",
+    "loginCopy": "Deploy, log ve profil ayarlarına eriş.",
+    "registerCopy": "Projeleri deploy etmek ve public linkleri yönetmek için kayıt ol.",
+    "name": "Ad",
+    "email": "E-posta",
+    "password": "Şifre",
+    "confirmPassword": "Şifreyi onayla",
+    "remember": "Beni hatırla",
+    "forgot": "Şifreni mi unuttun?",
+    "already": "Hesabın var mı?",
+    "new": "DreamX'te yeni misin?",
+    "create": "Hesap oluştur",
+    "secureAccess": "Güvenli erişim",
+    "invalid": "Geçersiz bilgiler",
+    "locked": "{{time}} sonra tekrar dene",
+    "passwordHint": "En az 8 karakter, büyük harf, küçük harf ve rakam kullan."
+  },
+  "landing": {
+    "eyebrow": "Git?ten public URL?ye",
+    "title": "Deploy et. Paylaş. Hazır.",
+    "copy": "Repo bağla ve birkaç dakikada public DreamX linki al.",
+    "trusted": "{{count}}+ geliştirici güveniyor",
+    "statsDeploys": "Toplam deploy",
+    "statsActive": "Aktif projeler",
+    "countries": "Ülkeler",
+    "uptime": "Uptime",
+    "comparison": "DreamX ve diğerleri",
+    "ready": "Hazır mısın?",
+    "readyCopy": "Hesap oluştur ve ilk siteni yayınla.",
+    "featuresTitle": "Basit deploy temelleri.",
+    "workflowTitle": "Canlı site için üç adım.",
+    "liveStats": "Live stats",
+    "statsTitle": "Counters that move when the platform grows.",
+    "defaultSlots": "Default project slots",
+    "comparisonTitle": "Focused deployment, without cloud-console sprawl.",
+    "pricingTitle": "Deploy planını seç.",
+    "popular": "Popular",
+    "testimonials": "Testimonials",
+    "testimonialsTitle": "A practical platform for practical teams.",
+    "faqTitle": "Kısa cevaplar.",
+    "scroll": "Scroll to features",
+    "pipeline": {
+      "title": "Deploy pipeline",
+      "live": "Live",
+      "done": "done",
+      "connect": "Connect GitHub repo",
+      "analyze": "Analyze framework",
+      "build": "Run build command",
+      "publish": "Publish public URL"
+    },
+    "features": {
+      "login": {
+        "title": "Login-only deploys",
+        "copy": "Protected backend and frontend routes keep repository deploys behind verified user sessions."
+      },
+      "github": {
+        "title": "Git kaynaklar?",
+        "copy": "GitHub veya GitLab ba?la, branch se?."
+      },
+      "logs": {
+        "title": "Live deploy logs",
+        "copy": "Build and deploy messages are persisted and streamed into terminal-style viewers."
+      },
+      "urls": {
+        "title": "Public URLs",
+        "copy": "Each project receives a unique URL, with wildcard subdomain support on Linux."
+      },
+      "admin": {
+        "title": "Private control panel",
+        "copy": "Separate privileged sessions, user management, audit trail, settings, logs, and announcements."
+      },
+      "server": {
+        "title": "Server ready",
+        "copy": "PostgreSQL schema, Redis queue support, PM2, Nginx, Caddy, HTTPS, and setup scripts."
+      }
+    },
+    "workflowSteps": {
+      "connect": {
+        "title": "Connect GitHub",
+        "copy": "GitHub veya GitLab reposu se?."
+      },
+      "analyze": {
+        "title": "Analyze project",
+        "copy": "DreamX reads repository metadata, detects framework, and previews the build plan."
+      },
+      "publish": {
+        "title": "Build and publish",
+        "copy": "Build commands run with timeouts, static output is copied, and the live URL becomes public."
+      }
+    },
+    "pricing": {
+      "free": {
+        "name": "Free",
+        "price": "$0",
+        "copy": "For quick demos and portfolio projects.",
+        "items": [
+          "3 active projects",
+          "GitHub deploys",
+          "Live logs"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "$19",
+        "copy": "For teams that deploy more often.",
+        "items": [
+          "Higher limits",
+          "Custom domains",
+          "Priority builds"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Custom",
+        "copy": "For self-hosted control and branding.",
+        "items": [
+          "White-label settings",
+          "Admin controls",
+          "SMTP announcements"
+        ]
+      }
+    },
+    "testimonialItems": {
+      "ayla": {
+        "name": "Ayla, product designer",
+        "quote": "DreamX turns client previews into a clean, repeatable workflow."
+      },
+      "tural": {
+        "name": "Tural, frontend engineer",
+        "quote": "The deploy flow feels simple, but the admin controls are serious."
+      },
+      "studio": {
+        "name": "Nara Studio",
+        "quote": "We can host small web projects without touching server config each time."
+      }
+    },
+    "comparisonRows": {
+      "github": {
+        "capability": "GitHub to public URL",
+        "dreamx": "Included",
+        "other": "Often requires extra integration setup"
+      },
+      "login": {
+        "capability": "Login-gated deploys",
+        "dreamx": "Built in",
+        "other": "Plan-dependent"
+      },
+      "selfHosted": {
+        "capability": "Self-hosted control",
+        "dreamx": "Your Linux server",
+        "other": "Vendor infrastructure"
+      },
+      "limits": {
+        "capability": "Admin limits",
+        "dreamx": "Configurable",
+        "other": "Fixed tiers"
+      }
+    },
+    "faqItems": {
+      "login": {
+        "q": "Can users deploy without logging in?",
+        "a": "No. Repository validation and deploy endpoints require a valid user JWT and protected frontend route."
+      },
+      "subdomains": {
+        "q": "How do project subdomains work?",
+        "a": "Point wildcard DNS to the Linux server and use the provided Nginx or Caddy config."
+      },
+      "postgres": {
+        "q": "Does DreamX support PostgreSQL?",
+        "a": "Yes. Production uses the included PostgreSQL migration. Local development can use the file fallback."
+      },
+      "https": {
+        "q": "Is HTTPS included?",
+        "a": "The app includes Caddy and Nginx plus Certbot deployment guides for wildcard or domain HTTPS."
+      },
+      "frameworks": {
+        "q": "Can I deploy React or Vue?",
+        "a": "Yes. DreamX detects package files, runs the build command, and publishes the output directory."
+      },
+      "privateRepos": {
+        "q": "Can I deploy private repositories?",
+        "a": "Evet. GitHub veya GitLab OAuth ile ba?lan?r; DreamX access token?lar? sunucuda ?ifreli saklar."
+      },
+      "limits": {
+        "q": "Can admins change deploy limits?",
+        "a": "Yes. Project limits, build timeout, maintenance mode, branding, and SMTP can be changed from settings."
+      },
+      "logs": {
+        "q": "Are logs saved?",
+        "a": "Deployment and admin logs are persisted and can also stream live over WebSocket."
+      },
+      "domains": {
+        "q": "Does it support custom domains?",
+        "a": "The deployment model supports clean slugs and wildcard subdomains, with reverse proxy examples included."
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Deploy çalışma alanın.",
+    "welcome": "Hoş geldin, {{name}}",
+    "copy": "Varsayılan olarak 3 aktif slot gösterilir.",
+    "deployNew": "Yeni deploy",
+    "viewProjects": "Projeleri gör",
+    "viewDocs": "Dokümanlar",
+    "activeProjects": "Aktif projeler",
+    "availableSlots": "Boş slotlar",
+    "totalProjects": "Toplam projeler",
+    "failedDeploys": "Başarısız deploylar",
+    "recentActivity": "Son aktiviteler",
+    "quickDeploy": "Hızlı deploy",
+    "tips": "Başlangıç listesi",
+    "dismiss": "Gizle",
+    "bandwidth": "Kullanılan bant",
+    "monthDeploys": "Bu ay deploy",
+    "developer": "developer",
+    "workspaceCopy": "Deploy slots, activity, usage, and onboarding live in one calm workspace."
+  },
+  "deploy": {
+    "title": "Kayna?? ba?la, analiz et, yay?nla.",
+    "copy": "Deploy sadece giri? sonras? m?mk?nd?r. GitHub ve GitLab repolar? clone, build ve publish ?ncesi do?rulan?r.",
+    "drop": "Ba?lamak i?in GitHub veya GitLab repo URL?i gir",
+    "max": "Public ve private repolar kaynak izninden sonra g?r?n?r.",
+    "projectName": "Project name",
+    "customDomain": "Custom domain label",
+    "optional": "optional",
+    "spa": "Enable SPA fallback to index.html",
+    "analyze": "Analyze repository",
+    "deployNow": "Deploy Now",
+    "analysis": "Analysis",
+    "progress": "Progress",
+    "live": "Project is live",
+    "copyUrl": "Copy URL",
+    "githubDeployTitle": "Git provider deploy",
+    "githubDeployCopy": "Connect GitHub or GitLab, choose one of your repositories, then analyze and publish it.",
+    "githubToken": "GitHub authorization",
+    "githubTokenPlaceholder": "Handled securely by OAuth",
+    "connectGithub": "Connect GitHub",
+    "refreshRepos": "Refresh repositories",
+    "connectedAs": "Connected as {{user}}",
+    "chooseRepository": "Choose repository",
+    "chooseRepositoryCopy": "Select the repo you want to deploy.",
+    "repositorySearch": "Search repositories",
+    "repositorySearchPlaceholder": "Search by repo name or description",
+    "noDescription": "No description",
+    "publicRepo": "Public",
+    "privateRepo": "Private",
+    "noRepositories": "Bu ba?lant? i?in repo bulunamad?.",
+    "githubTokenRequired": "Repo listesini g?rmek i?in ?nce kaynak sa?lay?c?n? ba?la.",
+    "githubConnected": "{{provider}} ba?land?. {{count}} repo y?klendi.",
+    "manualRepoUrl": "Selected repository URL",
+    "disconnectGithub": "Disconnect",
+    "githubOAuthMissing": "{{provider}} OAuth is not configured on this server. Add OAuth client values to .env.",
+    "githubOAuthFailed": "Source connection failed. Please try again.",
+    "connectProvider": "Connect {{provider}}",
+    "providers": {
+      "github": "GitHub repositories, teams, and private projects.",
+      "gitlab": "GitLab projects, groups, and private repositories."
+    }
+  },
+  "projects": {
+    "title": "All public deployments.",
+    "copy": "Search, inspect status, open live URLs, or jump into logs.",
+    "search": "Search projects",
+    "empty": "No projects found",
+    "emptyCopy": "?lk reponu ba?la, projeler burada g?r?ns?n.",
+    "details": "Details",
+    "open": "Open"
+  },
+  "profile": {
+    "title": "Hesap ayarları.",
+    "copy": "Kimlik, avatar, şifre ve hesap silme ayarları.",
+    "avatar": "Avatar yükle",
+    "save": "Profili kaydet",
+    "security": "Güvenlik",
+    "changePassword": "Şifre değiştir",
+    "delete": "Hesabı sil"
+  },
+  "admin": {
+    "dashboard": "Panel",
+    "users": "Kullanıcılar",
+    "projects": "Projeler",
+    "settings": "Ayarlar",
+    "logs": "Loglar",
+    "notifications": "Bildirimler",
+    "overview": "Platform kontrol odası.",
+    "userManagement": "Kullanıcı yönetimi.",
+    "projectManagement": "Deploy yönetimi.",
+    "platformSettings": "Platform ayarları.",
+    "systemLogs": "Sistem izleme.",
+    "announcements": "Duyurular ve e-posta gönderimleri."
+  },
+  "common": {
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "stop": "Durdur",
+    "restart": "Yeniden başlat",
+    "redeploy": "Tekrar deploy",
+    "search": "Ara",
+    "filter": "Filtre",
+    "copy": "Kopyala",
+    "close": "Kapat",
+    "loading": "Yükleniyor",
+    "success": "Başarılı",
+    "error": "Hata",
+    "empty": "Henüz veri yok"
+  },
+  "errors": {
+    "required": "This field is required",
+    "passwordMatch": "Passwords do not match.",
+    "requestFailed": "İstek başarısız oldu. Tekrar dene.",
+    "notFound": "This route is not available in DreamX.",
+    "maintenance": "DreamX is being upgraded. Please check back soon.",
+    "repoRequired": "?nce GitHub veya GitLab repository URL?i gir.",
+    "emailInvalid": "Geçerli bir e-posta adresi yaz.",
+    "nameMin": "Ad en az 2 karakter olmalıdır.",
+    "passwordStrong": "Şifre büyük harf, küçük harf ve rakam içermelidir."
+  },
+  "footer": {
+    "platform": "Platform",
+    "company": "Şirket",
+    "policy": "Politika",
+    "security": "Güvenlik",
+    "privacy": "Gizlilik",
+    "support": "Destek",
+    "rights": "Tüm hakları saklıdır.",
+    "resources": "Kaynaklar",
+    "terms": "Şartlar",
+    "cookies": "Cookie ayarları",
+    "status": "Durum",
+    "api": "API"
+  }
+}
